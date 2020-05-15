@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    height: 500px;
+}
+
+.container {
+    text-align: center;
+    height: inherit;
+    width: inherit;
+    padding: 8% 5%;
+    background-color: rgba(0, 0, 0, 0.514);
+
+}
+
+.content {
+    height: 250px;
+    width: 39%;
+    margin: 0 auto;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    border-bottom-right-radius: 60%;
+    border-top-left-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.content:hover {
+    text-decoration-line: line-through;
+}
+
+#first-section {
+    background-image: url("/images/two.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#second-section {
+    background-image: url("/images/one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#third-section {
+    background-image: url("/images/three.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#forth-section {
+    background-image: url("/images/four.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    color: gold;
+    padding-bottom: 35px;
+    padding-top: 15px;
+   text-decoration-line: underline;
+}
+
+p {
+    color: greenyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-family: 40;
+    padding-bottom: 35px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    color: rgb(72, 88, 233);
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 2px rgb(62, 189, 231);
+    text-transform: uppercase;
+}
